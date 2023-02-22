@@ -2,6 +2,7 @@
 body{
   background-image: url(Vineri.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 nav{
