@@ -72,3 +72,37 @@ td{
   font-weight: bold;
   font-size: 22px;
 }
+
+@media screen and (max-width: 800px){
+  .button,.button1{
+    border: 2px solid white;
+    width: fit-content;
+    height: fit-content;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: 5px;
+  }
+  .button1{
+    margin-right: 45px;
+    margin-left: 15px;
+  }
+
+  a{
+    color: white;
+    font-size: 13px;
+  }
+  
+  .title{
+    text-align: center;
+    color:aliceblue;
+    font-size: 130%;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 5px;
+
+  }
+
+  body{
+    background-size: auto 1000px;
+  }
+}
