@@ -1,6 +1,6 @@
 
 body{
-  background-image: url(Luni.jpg);
+  background-image: url(Vineri.jpg);
   background-size: cover;
 }
 
@@ -102,7 +102,6 @@ td{
   }
 
   body{
-    background-image: url(LuniMobile.jpg);
     background-size: 400px 1100px;
 
   }
