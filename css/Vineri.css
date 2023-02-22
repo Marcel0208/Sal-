@@ -1,8 +1,7 @@
 
 body{
-  background-image: url(Vineri.jpg);
+  background-image: url(Luni.jpg);
   background-size: cover;
-  background-position: center;
 }
 
 nav{
@@ -51,7 +50,7 @@ a{
 }
 
 article{
-  margin-top: 70px;
+  margin-top: 70px
 }
 
 table,tr,th,td{
@@ -99,10 +98,12 @@ td{
     font-weight: bold;
     text-decoration: underline;
     margin-top: 5px;
-
+    width: 100%;
   }
 
   body{
-    background-size: auto 1200px;
+    background-image: url(LuniMobile.jpg);
+    background-size: 400px 1100px;
+
   }
 }
