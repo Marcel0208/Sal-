@@ -1,4 +1,9 @@
 
+body{
+  background-image: url(Luni.jpg);
+  background-size: cover;
+}
+
 nav{
   display: flex;
   position: fixed;
@@ -8,22 +13,29 @@ nav{
   height: 45px;
   left: 0;
 }
+
 .button,.button1,.button2{
   border: 2px solid white;
   width: fit-content;
   height: fit-content;
   font-weight: bold;
   margin-top: 8px;
-  margin-left: 5px;
-}
-.button1{
-  margin-right: 280px;
-  margin-left: 15px;
 }
 
 .button2{
-  margin-left: 381px;
+  margin-right: 0.5%;
+  margin-left:auto;
 }
+
+.button{
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+}
+
+.button1{
+  margin-right: 0;
+}
+
 a{
   color: white;
   font-size: 18px;
@@ -34,15 +46,13 @@ a{
   font-size: 180%;
   font-weight: bold;
   text-decoration: underline;
+  width: 100%;
 }
 
-body{
-  background-image: url(Luni.jpg);
-  background-size: cover;
-}
 article{
   margin-top: 70px
 }
+
 table,tr,th,td{
   border: 2px solid black;
   border-collapse: collapse;
@@ -51,6 +61,7 @@ table,tr,th,td{
   width: 100%;
   text-align: center;
 }
+
 th{
   background-color:rgb(13, 43, 61) ;
   font-size: 25px;
@@ -83,10 +94,11 @@ td{
   .title{
     text-align: center;
     color:aliceblue;
-    font-size: 150%;
+    font-size: 130%;
     font-weight: bold;
     text-decoration: underline;
     margin-top: 5px;
+    width: 100%;
   }
 
   body{
