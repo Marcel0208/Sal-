@@ -50,7 +50,7 @@ a{
 }
 
 article{
-  margin-top: 70px
+  margin-top: 70px;
 }
 
 table,tr,th,td{
@@ -70,6 +70,13 @@ th{
 td{
   font-weight: bold;
   font-size: 22px;
+}
+
+.Grupa{
+  background-color:rgb(202, 229, 235) ;
+  font-size: 20px;
+  color: black;
+  border: none;
 }
 
 @media screen and (max-width: 800px){

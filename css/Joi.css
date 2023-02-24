@@ -1,4 +1,10 @@
 
+body{
+  background-image: url(Joi.jpg);
+  background-size: cover;
+ 
+}
+
 nav{
   display: flex;
   position: fixed;
@@ -8,49 +14,55 @@ nav{
   height: 45px;
   left: 0;
 }
+
 .button,.button1,.button2{
   border: 2px solid white;
   width: fit-content;
   height: fit-content;
   font-weight: bold;
   margin-top: 8px;
-  margin-left: 5px;
 }
-.button1{
-  margin-right: 250px;
-  margin-left: 15px;
-}
+
 .button2{
-  margin-left: 465px;
+  margin-right: 0.5%;
+  margin-left:auto;
 }
+
+.button{
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+}
+
+.button1{
+  margin-right: 0;
+}
+
 a{
   color: white;
-  font-size: 20px;
+  font-size: 18px;
 }
 .title{
   text-align: center;
   color:aliceblue;
-  font-size: 200%;
+  font-size: 180%;
   font-weight: bold;
   text-decoration: underline;
+  width: 100%;
 }
 
-body{
-  background-image: url(https://images.unsplash.com/photo-1634552277084-bcaccb0e130f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80);
-  background-size: cover;
-  background-position: center;
-}
 article{
-  margin-top: 70px
+  margin-top: 70px;
 }
+
 table,tr,th,td{
   border: 2px solid black;
   border-collapse: collapse;
   padding: 10px 10px;
-  color: rgb(0, 0, 0);
+  color: black;
   width: 100%;
   text-align: center;
 }
+
 th{
   background-color:rgb(13, 43, 61) ;
   font-size: 25px;
@@ -59,12 +71,18 @@ th{
 td{
   font-weight: bold;
   font-size: 22px;
-  
 }
 
-@media screen and (max-width:800px){
+.Grupa{
+  background-color:rgb(202, 229, 235) ;
+  font-size: 20px;
+  color: black;
+  border: none;
+}
+
+@media screen and (max-width: 800px){
   .button,.button1{
-    border: 1px solid white;
+    border: 2px solid white;
     width: fit-content;
     height: fit-content;
     font-weight: bold;
@@ -72,17 +90,8 @@ td{
     margin-left: 5px;
   }
   .button1{
-    margin-right: 40px;
+    margin-right: 45px;
     margin-left: 15px;
-  }
-
-  .title{
-    text-align: center;
-    color:aliceblue;
-    font-size: 140%;
-    font-weight: bold;
-    text-decoration: underline;
-    margin-top: 5px;
   }
 
   a{
@@ -90,7 +99,17 @@ td{
     font-size: 13px;
   }
   
+  .title{
+    text-align: center;
+    color:aliceblue;
+    font-size: 130%;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 5px;
+    width: 100%;
+  }
+
   body{
-    height: 810px;
+       background-size: 400px 1000px;
   }
 }

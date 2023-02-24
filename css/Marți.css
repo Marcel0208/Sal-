@@ -71,6 +71,13 @@ td{
   font-size: 22px;
 }
 
+.Grupa{
+  background-color:rgb(202, 229, 235) ;
+  font-size: 20px;
+  color: black;
+  border: none;
+}
+
 @media screen and (max-width: 800px){
   .button,.button1{
     border: 2px solid white;

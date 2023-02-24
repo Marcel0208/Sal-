@@ -1,6 +1,6 @@
 
 body{
-  background-color:rgb(8, 0, 6);
+  background-color:rgba(5, 0, 10, 0.979);
   background-size: contain;
   display: flex;
   justify-content:space-around;
@@ -8,6 +8,7 @@ body{
   row-gap: 10px;
   height: 100%;
   margin-top: 120px;
+  
 }
 
 nav{
